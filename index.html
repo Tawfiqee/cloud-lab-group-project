@@ -1,72 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Group 10 — Home</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group 10 — Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="nav-brand" href="index.html">Group <span>10</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-  <nav>
-    <a class="nav-brand" href="index.html">Group <span>10</span></a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-badge">Course Title Placeholder</div>
-    <h1>Group 10 Project</h1>
-    <p>A short description of the project goes here. Replace this with a sentence or two explaining what your group is building or researching.</p>
-  </div>
-
-  <main>
-    <div class="card">
-      <h2>Project Overview</h2>
-      <div class="image-placeholder">
-        <span class="icon">🖼️</span>
-        <span>Replace with your project image (images/image.jpg)</span>
-      </div>
-      <!-- Once you have your image, replace the div above with:
-           <img src="images/image.jpg" alt="Project Image" class="project-image"> -->
-      <p>
-        This is the home page of Group 10's project website. Here you can provide a more detailed overview of your project — what problem it solves, your approach, and any key outcomes or findings. Replace this placeholder text with your actual project description.
-      </p>
+    <div class="hero">
+      <div class="hero-badge">Course Title Placeholder</div>
+      <h1>Group 10 Project</h1>
+      <p>A cloud computing research website</p>
     </div>
 
-    <div class="card">
-      <h2>Group Members</h2>
-      <div class="members-grid">
-        <div class="member-card">
-          <div class="member-avatar">M1</div>
-          <h3>Member One</h3>
-          <p>Role / Year</p>
+    <main>
+      <div class="card">
+        <h2>Project Overview</h2>
+        <div class="image-placeholder">
+          <span
+            ><img
+              src="images/cloudp.png"
+              alt="Project Image"
+              class="project-image"
+          /></span>
         </div>
-        <div class="member-card">
-          <div class="member-avatar">M2</div>
-          <h3>Member Two</h3>
-          <p>Role / Year</p>
-        </div>
-        <div class="member-card">
-          <div class="member-avatar">M3</div>
-          <h3>Member Three</h3>
-          <p>Role / Year</p>
-        </div>
-        <div class="member-card">
-          <div class="member-avatar">M4</div>
-          <h3>Member Four</h3>
-          <p>Role / Year</p>
+        <p>
+         <h2>What is Cloud Computing?</h2>
+<p>Cloud computing delivers computing services—like servers, storage, databases, and software—over the internet, allowing users to rent resources instead of purchasing hardware. This model enables flexibility and cost savings.</p>
+
+<h2>Core Characteristics</h2>
+<ul>
+    <li><strong>On-Demand Self-Service</strong>: Users can provision resources automatically.</li>
+    <li><strong>Broad Network Access</strong>: Services are accessible via standard devices.</li>
+    <li><strong>Resource Pooling</strong>: Multiple consumers share resources efficiently.</li>
+    <li><strong>Rapid Elasticity</strong>: Resources can be scaled quickly based on demand.</li>
+    <li><strong>Measured Service</strong>: Resource usage is monitored and billed accordingly.</li>
+</ul>
+
+<h2>Service Models</h2>
+<ul>
+    <li><strong>IaaS</strong>: Infrastructure as a Service (e.g., AWS EC2).</li>
+    <li><strong>PaaS</strong>: Platform as a Service (e.g., Heroku).</li>
+    <li><strong>SaaS</strong>: Software as a Service (e.g., Gmail).</li>
+</ul>
+
+<h2>Deployment Models</h2>
+<ul>
+    <li><strong>Public Cloud</strong>: Shared infrastructure (e.g., AWS).</li>
+    <li><strong>Private Cloud</strong>: Exclusive use by a single organization.</li>
+    <li><strong>Hybrid Cloud</strong>: Combination of public and private clouds.</li>
+    <li><strong>Multi-Cloud</strong>: Use of multiple cloud services simultaneously.</li>
+</ul>
+
+<h2>Key Technologies</h2>
+<ul>
+    <li><strong>Virtualization</strong>: Enables multiple virtual machines on one server.</li>
+    <li><strong>Containerization</strong>: Packages applications for consistent deployment.</li>
+    <li><strong>Distributed Computing</strong>: Spreads workloads across multiple machines.</li>
+    <li><strong>APIs</strong>: Facilitate communication between services.</li>
+</ul>
+
+<h2>Advantages</h2>
+<ul>
+    <li><strong>Cost Efficiency</strong>: Reduces capital expenditure.</li>
+    <li><strong>Scalability</strong>: Adjust resources based on need.</li>
+    <li><strong>Availability</strong>: High uptime guarantees from providers.</li>
+    <li><strong>Accessibility</strong>: Access from anywhere with internet.</li>
+    <li><strong>Automatic Updates</strong>: Providers handle maintenance.</li>
+</ul>
+
+<h2>Challenges</h2>
+<ul>
+    <li><strong>Security Risks</strong>: Concerns about data breaches.</li>
+    <li><strong>Vendor Lock-In</strong>: Difficulty migrating between providers.</li>
+    <li><strong>Downtime Dependency</strong>: Reliance on provider uptime.</li>
+    <li><strong>Latency Issues</strong>: Performance affected by internet quality.</li>
+    <li><strong>Regulatory Compliance</strong>: Adhering to data storage regulations.</li>
+</ul>
+
+<h2>Security Considerations</h2>
+<p>Cloud security is a shared responsibility: providers secure infrastructure while customers manage data security, access controls, and compliance with standards like GDPR and ISO 27001.</p>
+
+<h2>Major Cloud Providers</h2>
+<ul>
+    <li><strong>AWS</strong>: Largest provider with extensive services.</li>
+    <li><strong>Microsoft Azure</strong>: Strong enterprise integration.</li>
+    <li><strong>Google Cloud Platform</strong>: Known for data analytics and machine learning.</li>
+</ul>
+<p>Other notable players include IBM Cloud and Oracle Cloud.</p>
+
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Group Members</h2>
+        <div class="members-grid">
+          <div class="member-card">
+            <div class="member-avatar">M1</div>
+            <h3>Member One</h3>
+            <p>Role / Year</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">M2</div>
+            <h3>Member Two</h3>
+            <p>Role / Year</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">M3</div>
+            <h3>Member Three</h3>
+            <p>Role / Year</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">M4</div>
+            <h3>Member Four</h3>
+            <p>Role / Year</p>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    &copy; 2025 <span>Group 10</span> &mdash; Course Title Placeholder
-  </footer>
-
-</body>
+    <footer>
+      &copy; 2026 <span>Group 10</span> &mdash; Course Title Placeholder
+    </footer>
+  </body>
 </html>
+
